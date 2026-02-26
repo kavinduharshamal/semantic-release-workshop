@@ -16,12 +16,12 @@ router.get("/", (req, res) => {
       "A Node.js + Express app showcasing semantic-release, conventional commits, and husky",
     endpoints: {
       "GET /": "API information",
-      "GET /check": "Health check",
+      "GET /health": "Health check",
       "GET /users": "List all users",
       "GET /users/:id": "Get user by ID",
       "POST /users": "Create a new user",
       "PUT /users/:id": "Update a user",
-      "DELETE /users-check/:id": "Delete a user",
+      "DELETE /users/:id": "Delete a user",
     },
   });
 });

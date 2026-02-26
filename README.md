@@ -157,7 +157,7 @@ git commit -m "fix(users): handle missing email validation"
 git commit -m "feat!: redesign user API response format"
 
 # Documentation (no release)
-git commit -m "docs: update API endpoint examples"
+git commit -m "docs: update api endpoint examples"
 ```
 
 ---

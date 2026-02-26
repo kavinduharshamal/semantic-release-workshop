@@ -21,7 +21,7 @@ router.get("/", (req, res) => {
       "GET /users/:id": "Get user by ID",
       "POST /users": "Create a new user",
       "PUT /users/:id": "Update a user",
-      "DELETE /users/:id": "Delete a user",
+      "DELETE /users-check/:id": "Delete a user",
     },
   });
 });
